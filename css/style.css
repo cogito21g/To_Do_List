@@ -1,0 +1,67 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* 컨테이너 스타일 */
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  /* 제목 스타일 */
+  h1 {
+    text-align: center;
+  }
+  
+  /* 입력 컨테이너 스타일 */
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* 할 일 입력 필드 스타일 */
+  #todo-input {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  /* 추가 버튼 스타일 */
+  #add-btn {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  
+  /* 할 일 목록 스타일 */
+  #todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* 할 일 항목 스타일 */
+  .todo-item {
+    padding: 10px;
+    background: #eee;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* 완료된 할 일 스타일 */
+  .todo-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
