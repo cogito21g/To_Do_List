@@ -50,6 +50,7 @@ To_Do_List/
 └── assets/
 │    └── images/
 │        └── logo.png
+├── package.json
 ├── .gitignore
 ├── README.md
 └── LICENSE
@@ -64,6 +65,7 @@ To_Do_List/
     - ui.js: 사용자 인터페이스 관련 기능을 처리하는 모듈. 할 일 추가, 수정, 삭제 시 UI 업데이트를 담당
 - assets/
     - images/: 프로젝트에서 사용하는 모든 이미지 파일을 저장하는 디렉토리
+
 
 
 ## 규칙

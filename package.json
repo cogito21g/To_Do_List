@@ -1,0 +1,17 @@
+{
+  "name": "to_do_list",
+  "version": "1.0.0",
+  "description": "To Do List는 사용자가 해야 할 일들을 추가, 수정, 삭제할 수 있는 간단한 웹 애플리케이션입니다. 이 프로젝트는 JavaScript의 DOM 조작과 로컬 스토리지를 활용한 데이터 저장 방법을 사용할 것입니다. 또한, HTML과 CSS를 사용하여 사용자 친화적인 인터페이스를 제공하며, JavaScript를 통해 사용자 인터랙션을 처리합니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.6",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
